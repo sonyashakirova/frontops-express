@@ -1,5 +1,6 @@
 services:
   main:
+    image: smshakirova/express-example
     build: .
     ports:
       - "3000:3000"
